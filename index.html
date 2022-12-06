@@ -1,0 +1,37 @@
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+<div class='container'>
+
+    <div class='block'>
+
+        <div class="columns">
+            <div class="column">
+                    <input id='task' class="input" type="text" placeholder="Task">
+            </div>
+            <div class="column">
+                <label>
+                    <input id='time' class="input" type="text" placeholder="Time to complete">
+                </label>
+            </div>
+            <div class="column">
+                <button class="button is-dark" id="add">Add todo</button>
+
+            </div>
+        </div>
+
+        <div id='error'>
+        <!-- error gets rendered in here-->
+        </div>
+
+    </div>
+
+
+
+    <div class= 'content' id='todos'> </div>
+
+
+
+</div>
+
+<script src='script.js' ></script>
